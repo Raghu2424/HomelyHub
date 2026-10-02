@@ -2,7 +2,7 @@ import React from "react";
 import { useForm } from "@tanstack/react-form";
 import { useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { resetPassword } from "../../store/User/user-action";
+import { resetPassword } from "../../store/User/User-action";
 import toast from "react-hot-toast";
 
 const ResetPassword = () => {

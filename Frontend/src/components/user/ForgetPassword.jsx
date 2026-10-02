@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../../css/ForgetPassword.css";
 import { Field, useForm } from "@tanstack/react-form";
 import { useDispatch, useSelector } from "react-redux";
-import { forgotPassword } from "../../store/User/user-action";
+import { forgotPassword } from "../../store/User/User-action";
 import toast from "react-hot-toast";
 
 const ForgetPassword = () => {
